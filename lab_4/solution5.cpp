@@ -22,12 +22,12 @@ int isSubsequence(string main_string, string sequence) {
 
 int main() {
 
-    string main_string, subsequence;
+    string main_string, sequence;
 
     cin >> main_string;
-    cin >> subsequence;
+    cin >> sequence;
 
-    cout << isSubsequence(main_string, subsequence) << endl;
+    cout << isSubsequence(main_string, sequence) << endl;
 
     return 0;
 }
