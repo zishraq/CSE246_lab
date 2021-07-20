@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/zishraq/CLionProjects/CSE246_lab/main.cpp">
+		<Unit filename="/home/zishraq/CLionProjects/CSE246_lab/lab_4/solution3.cpp">
 			<Option target="CSE246_lab"/>
 		</Unit>
 		<Unit filename="/home/zishraq/CLionProjects/CSE246_lab/CMakeLists.txt">

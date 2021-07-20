@@ -3,7 +3,7 @@
 using namespace std;
 
 
-vector <vector <int>> numberAndSumOfDivisorsGenerator(int n) {
+map <string, vector <int>> numberAndSumOfDivisorsGenerator(int n) {
     vector <int> number_of_divisors(n + 1, 0);
     vector <int> sum_of_divisors(n + 1, 0);
 
@@ -14,19 +14,21 @@ vector <vector <int>> numberAndSumOfDivisorsGenerator(int n) {
         }
     }
 
-    return {number_of_divisors, sum_of_divisors};
+    map <string, vector <int>> result;
+    result["number_of_divisors"] = number_of_divisors;
+    result["sum_of_divisors"] = sum_of_divisors;
+    return result;
 }
-
 
 int main() {
     int n;
 
     cin >> n;
 
-    vector <vector <int>> result = numberAndSumOfDivisorsGenerator(n);
+    map <string, vector <int>> result = numberAndSumOfDivisorsGenerator(n);
 
     for (int i = 1; i <= n; i++) {
-        cout << result[0][i] << " " << result[1][i] << endl;
+        cout << result["number_of_divisors"][i] << " " << result["sum_of_divisors"][i] << endl;
     }
 
     return 0;
