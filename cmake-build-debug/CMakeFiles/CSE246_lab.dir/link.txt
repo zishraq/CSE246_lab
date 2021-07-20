@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/CSE246_lab.dir/main.cpp.o -o CSE246_lab 
