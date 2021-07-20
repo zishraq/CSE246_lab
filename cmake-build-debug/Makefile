@@ -58,10 +58,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/zishraq/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/zishraq/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/zishraq/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/zishraq/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = /home/zishraq/CLionProjects/CSE246_lab/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/zishraq/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/zishraq/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/zishraq/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/zishraq/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -142,32 +142,32 @@ CSE246_lab/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSE246_lab.dir/build.make CMakeFiles/CSE246_lab.dir/build
 .PHONY : CSE246_lab/fast
 
-lab_4/solution5.o: lab_4/solution5.cpp.o
+main.o: main.cpp.o
 
-.PHONY : lab_4/solution5.o
+.PHONY : main.o
 
 # target to build an object file
-lab_4/solution5.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSE246_lab.dir/build.make CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.o
-.PHONY : lab_4/solution5.cpp.o
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSE246_lab.dir/build.make CMakeFiles/CSE246_lab.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-lab_4/solution5.i: lab_4/solution5.cpp.i
+main.i: main.cpp.i
 
-.PHONY : lab_4/solution5.i
+.PHONY : main.i
 
 # target to preprocess a source file
-lab_4/solution5.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSE246_lab.dir/build.make CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.i
-.PHONY : lab_4/solution5.cpp.i
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSE246_lab.dir/build.make CMakeFiles/CSE246_lab.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-lab_4/solution5.s: lab_4/solution5.cpp.s
+main.s: main.cpp.s
 
-.PHONY : lab_4/solution5.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-lab_4/solution5.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSE246_lab.dir/build.make CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.s
-.PHONY : lab_4/solution5.cpp.s
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSE246_lab.dir/build.make CMakeFiles/CSE246_lab.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CSE246_lab"
-	@echo "... lab_4/solution5.o"
-	@echo "... lab_4/solution5.i"
-	@echo "... lab_4/solution5.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

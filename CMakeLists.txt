@@ -3,4 +3,5 @@ project(CSE246_lab)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(CSE246_lab lab_4/solution5.cpp)
+add_executable(CSE246_lab main.cpp)
+#add_executable(CSE246_lab lab_4/solution3.cpp)

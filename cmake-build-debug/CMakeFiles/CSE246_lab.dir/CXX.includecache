@@ -6,15 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/zishraq/CLionProjects/CSE246_lab/lab_4/solution5.cpp
-cmath
--
-cstdio
--
-vector
--
-iostream
--
-algorithm
+/home/zishraq/CLionProjects/CSE246_lab/main.cpp
+bits/stdc++.h
 -
 

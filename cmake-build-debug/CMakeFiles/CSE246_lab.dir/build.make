@@ -53,10 +53,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/zishraq/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /home/zishraq/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/zishraq/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7442.42/bin/cmake/linux/bin/cmake -E rm -f
+RM = /home/zishraq/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -76,27 +76,27 @@ include CMakeFiles/CSE246_lab.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CSE246_lab.dir/flags.make
 
-CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.o: CMakeFiles/CSE246_lab.dir/flags.make
-CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.o: ../lab_4/solution5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zishraq/CLionProjects/CSE246_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.o -c /home/zishraq/CLionProjects/CSE246_lab/lab_4/solution5.cpp
+CMakeFiles/CSE246_lab.dir/main.cpp.o: CMakeFiles/CSE246_lab.dir/flags.make
+CMakeFiles/CSE246_lab.dir/main.cpp.o: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/zishraq/CLionProjects/CSE246_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CSE246_lab.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CSE246_lab.dir/main.cpp.o -c /home/zishraq/CLionProjects/CSE246_lab/main.cpp
 
-CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zishraq/CLionProjects/CSE246_lab/lab_4/solution5.cpp > CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.i
+CMakeFiles/CSE246_lab.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CSE246_lab.dir/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/zishraq/CLionProjects/CSE246_lab/main.cpp > CMakeFiles/CSE246_lab.dir/main.cpp.i
 
-CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zishraq/CLionProjects/CSE246_lab/lab_4/solution5.cpp -o CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.s
+CMakeFiles/CSE246_lab.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CSE246_lab.dir/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/zishraq/CLionProjects/CSE246_lab/main.cpp -o CMakeFiles/CSE246_lab.dir/main.cpp.s
 
 # Object files for target CSE246_lab
 CSE246_lab_OBJECTS = \
-"CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.o"
+"CMakeFiles/CSE246_lab.dir/main.cpp.o"
 
 # External object files for target CSE246_lab
 CSE246_lab_EXTERNAL_OBJECTS =
 
-CSE246_lab: CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.o
+CSE246_lab: CMakeFiles/CSE246_lab.dir/main.cpp.o
 CSE246_lab: CMakeFiles/CSE246_lab.dir/build.make
 CSE246_lab: CMakeFiles/CSE246_lab.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/zishraq/CLionProjects/CSE246_lab/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable CSE246_lab"
