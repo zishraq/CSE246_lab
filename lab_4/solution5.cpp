@@ -5,19 +5,19 @@
 #include <algorithm>
 using namespace std;
 
-int isSubsequence(string main_string, string subsequence) {
+int isSubsequence(string main_string, string sequence) {
     long unsigned int i = 0;
     long unsigned int j = 0;
 
-    while (i < main_string.size() && j < subsequence.size()) {
-        if (main_string[i] == subsequence[j]) {
+    while (i < main_string.size() && j < sequence.size()) {
+        if (main_string[i] == sequence[j]) {
             j++;
         }
 
         i++;
     }
 
-    return j == subsequence.size();
+    return j == sequence.size();
 }
 
 int main() {

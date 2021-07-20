@@ -142,32 +142,32 @@ CSE246_lab/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSE246_lab.dir/build.make CMakeFiles/CSE246_lab.dir/build
 .PHONY : CSE246_lab/fast
 
-lab_3/solution1.o: lab_3/solution1.c.o
+lab_4/solution5.o: lab_4/solution5.cpp.o
 
-.PHONY : lab_3/solution1.o
+.PHONY : lab_4/solution5.o
 
 # target to build an object file
-lab_3/solution1.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSE246_lab.dir/build.make CMakeFiles/CSE246_lab.dir/lab_3/solution1.c.o
-.PHONY : lab_3/solution1.c.o
+lab_4/solution5.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSE246_lab.dir/build.make CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.o
+.PHONY : lab_4/solution5.cpp.o
 
-lab_3/solution1.i: lab_3/solution1.c.i
+lab_4/solution5.i: lab_4/solution5.cpp.i
 
-.PHONY : lab_3/solution1.i
+.PHONY : lab_4/solution5.i
 
 # target to preprocess a source file
-lab_3/solution1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSE246_lab.dir/build.make CMakeFiles/CSE246_lab.dir/lab_3/solution1.c.i
-.PHONY : lab_3/solution1.c.i
+lab_4/solution5.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSE246_lab.dir/build.make CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.i
+.PHONY : lab_4/solution5.cpp.i
 
-lab_3/solution1.s: lab_3/solution1.c.s
+lab_4/solution5.s: lab_4/solution5.cpp.s
 
-.PHONY : lab_3/solution1.s
+.PHONY : lab_4/solution5.s
 
 # target to generate assembly for a file
-lab_3/solution1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSE246_lab.dir/build.make CMakeFiles/CSE246_lab.dir/lab_3/solution1.c.s
-.PHONY : lab_3/solution1.c.s
+lab_4/solution5.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSE246_lab.dir/build.make CMakeFiles/CSE246_lab.dir/lab_4/solution5.cpp.s
+.PHONY : lab_4/solution5.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... CSE246_lab"
-	@echo "... lab_3/solution1.o"
-	@echo "... lab_3/solution1.i"
-	@echo "... lab_3/solution1.s"
+	@echo "... lab_4/solution5.o"
+	@echo "... lab_4/solution5.i"
+	@echo "... lab_4/solution5.s"
 .PHONY : help
 
 
