@@ -1,3 +1,0 @@
-/home/zishraq/CLionProjects/CSE246_lab/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/zishraq/CLionProjects/CSE246_lab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/zishraq/CLionProjects/CSE246_lab/cmake-build-debug/CMakeFiles/CSE246_lab.dir

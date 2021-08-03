@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/CSE246_lab.dir/lab_4/solution3.cpp.o -o CSE246_lab 

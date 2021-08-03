@@ -1,4 +1,6 @@
-/home/zishraq/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7628.27/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/zishraq/CLionProjects/CSE246_lab
--- Configuring done
--- Generating done
--- Build files have been written to: /home/zishraq/CLionProjects/CSE246_lab/cmake-build-debug
+/home/quantier-user/CLion-2020.2.4/clion-2020.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/quantier-user/CLionProjects/CSE246_lab
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.19 or higher is required.  You are running version 3.17.3
+
+
+-- Configuring incomplete, errors occurred!
